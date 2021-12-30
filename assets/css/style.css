@@ -1,31 +1,37 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-h1, h2, h3{
-  
+h1,
+h2,
+h3 {
   font-weight: bold;
   margin: 30px 0px 10px 0px;
 }
 
-h1{
+h1 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin: 20px 0px 5px 0px ;
+  margin: 20px 0px 5px 0px;
 }
 
-h2 {font-size: 18px;}
+h2 {
+  font-size: 18px;
+}
 
-h3 {font-size: 14px;
-  margin-top: 15px}
+h3 {
+  font-size: 14px;
+  margin-top: 15px;
+}
 
-strong{font-weight: bold;}
+strong {
+  font-weight: bold;
+}
 
-
-.main{
+.main {
   width: 800px;
   margin: 0 auto;
 }
@@ -34,18 +40,19 @@ strong{font-weight: bold;}
   padding: 20px;
 }
 
-.top_section_photo1{
+.top_section_photo1 {
   width: 20%;
 }
 
-.info_top_section{
+.info_top_section {
   margin: 20px;
   width: 70%;
   display: inline-block;
   vertical-align: top;
-  text-align: left;}
-  
-.info_block p{
+  text-align: left;
+}
+
+.info_block p {
   text-indent: 20px;
   margin-bottom: 5px;
   text-align: justify;
@@ -53,35 +60,33 @@ strong{font-weight: bold;}
 
 /* Второй блок */
 
-.CV2{
+.CV2 {
   background-color: #777171;
 }
 
-
-.CV2 h1{
+.CV2 h1 {
   text-align: left;
 }
 
-.wrapper{
+.wrapper {
   display: inline-block;
   vertical-align: top;
 }
 
-.side{
+.side {
   display: inherit;
   vertical-align: top;
   width: 30%;
-  background-color: #D0CECF;
+  background-color: #d0cecf;
   padding: 20px;
   margin-left: 40px;
 }
 
-.side_section_photo2{
+.side_section_photo2 {
   width: 100%;
 }
 
-
-.contact > h3{
+.contact > h3 {
   text-align: left;
   padding: 0;
   margin: 0;
@@ -93,46 +98,44 @@ strong{font-weight: bold;}
   margin: 0;
 }
 
-.content{
+.content {
   display: inherit;
   vertical-align: top;
   position: relative;
   width: 65%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: -4px;
   padding: 20px;
 }
 
-.content h2{
+.content h2 {
   text-decoration: underline;
 }
 
-.table1 td{
+.table1 td {
   padding-right: 20px;
 }
 
 .content h3 {
   text-transform: capitalize;
-  color: #BCBCBC;
+  color: #bcbcbc;
 }
 .wrapper h2 {
   text-transform: uppercase;
 }
 
-
-.table1 tr:nth-child(2n)>td{
+.table1 tr:nth-child(2n) > td {
   padding-bottom: 30px;
 }
 
-.table2 tr:last-child>td{
+.table2 tr:last-child > td {
   padding-bottom: 78px;
 }
 
-
-.skills p{
+.skills p {
   padding-left: 75px;
 }
 
-.table2 td{
+.table2 td {
   padding: 0px 20px 12px 0px;
 }
