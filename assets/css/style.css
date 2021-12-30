@@ -6,23 +6,32 @@
 
 h1, h2, h3{
   
-  text-indent: 20px;
+  font-weight: bold;
+  margin: 30px 0px 10px 0px;
 }
 
 h1{
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin: 20px 0px 5px 20px ;
+  margin: 20px 0px 5px 0px ;
 }
 
-h2,h3 {
-  color: #2A2716;
-  margin: 20px 0px 10px 20px;
-}
+h2 {font-size: 18px;}
 
-.CV1{
+h3 {font-size: 14px;
+  margin-top: 15px}
+
+strong{font-weight: bold;}
+
+
+.main{
   width: 800px;
   margin: 0 auto;
+}
+
+.CV1 {
+  padding: 20px;
 }
 
 .top_section_photo1{
@@ -36,8 +45,94 @@ h2,h3 {
   vertical-align: top;
   text-align: left;}
   
-.info_block>*>p{
+.info_block p{
   text-indent: 20px;
   margin-bottom: 5px;
   text-align: justify;
+}
+
+/* Второй блок */
+
+.CV2{
+  background-color: #777171;
+}
+
+
+.CV2 h1{
+  text-align: left;
+}
+
+.wrapper{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.side{
+  display: inherit;
+  vertical-align: top;
+  width: 30%;
+  background-color: #D0CECF;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.side_section_photo2{
+  width: 100%;
+}
+
+
+.contact > h3{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.address .phone .email {
+  text-align: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.content{
+  display: inherit;
+  vertical-align: top;
+  position: relative;
+  width: 65%;
+  background-color: #FFFFFF;
+  margin: -4px;
+  padding: 20px;
+}
+
+.content h2{
+  text-decoration: underline;
+}
+
+.table1 td{
+  padding-right: 20px;
+}
+
+.content h3 {
+  text-transform: capitalize;
+  color: #BCBCBC;
+}
+.wrapper h2 {
+  text-transform: uppercase;
+}
+
+
+.table1 tr:nth-child(2n)>td{
+  padding-bottom: 30px;
+}
+
+.table2 tr:last-child>td{
+  padding-bottom: 78px;
+}
+
+
+.skills p{
+  padding-left: 75px;
+}
+
+.table2 td{
+  padding: 0px 20px 12px 0px;
 }
